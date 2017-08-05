@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("7.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+.tdmain {	
+	text-align: center;
+	vertical-align: top;
+	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	padding-top: 25px;
+	margin: 0px;
+	
+	
+	width: 100px;
+	height: 100px;
+	margin-top: 3px;
+	color: #FFFF00;
+	background-color: rgba(0,0,0,.5);
+}
+
+.mainmenu {	
+color: #FFFF00;
+background-color: rgba(0,0,0,.5);
+}
+
+.tdlink:hover {
+	background-color: rgba(0,0,0,.10);
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.maintable {
+	margin: auto;
+	border: 1px solid #000000;
+	border-color: #FFFF00;
+	min-width: 410px;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,.3);
+}
+
+.maintable:hover{
+	background-color: rgba(0,0,0,.4);
+
+
+}
+
+.oldlog {
+color:	#FFFF00;
+}
+
+.oldlog_row:hover {
+	background-color: rgba(0,0,0,.0);
+	cursor: pointer;
+	border-radius: 5px;
+	border-color: #FFFF00;
+}
+
+.serverlist_row {
+	background-color: rgba(0,0,0,.0);
+	color: #FFFF00;
+	border-top: 1px solid #000000;
+	text-align: left;
+	height: 29px;
+	position: relative;
+}
+
+.serverlist_row:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.serverlist_field {
+	background-color: rgba(0,0,0,.0);
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	margin: 0;	
+}
+
+.serverlist_statusimg {
+	background-color: rgba(0,0,0,.0);
+	vertical-align: middle;
+}
+
+.serverlist_statusfield {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	margin:0;
+	width: 100%;
+	background-color: rgba(0,0,0,.0);
+}
+
+.serverlist_namefield {
+	vertical-align: middle;
+	background-color: rgba(0,0,0,.0);
+}
+
+.serverlist_actionfield {
+	position: absolute;
+	right: 0;
+	top: 2px;
+	margin:0;
+	background-color: rgba(0,0,0,.0);
+}
+
+.manage {
+	margin-top: 50px;
+}
+
+#binfiles {
+background-color: rgba(0,0,0,.0);
+border-color: #FFFF00;
+color: #FFFF00;	
+}
+
+#cfgtxt {
+background-color: rgba(0,0,0,.0);
+border-color: #FFFF00;
+color: #FFFF00; 
+}
+
+#submit{
+	color: #FFFF00;
+	border-color: #FFFF00;
+	background-color: rgba(0,0,0,.0);
+}
+
+#submit:hover {
+	background-color: rgba(0,0,0,.1);
+}
+
+#logbox {
+	background-color: rgba(0,0,0,.7);
+	border-radius: 5px;
+	border: 1px solid;
+	border-color: #FFFF00;
+	color: #FFFFFF;
+}
+
+#logbox:hover {
+	background-color: rgba(0,0,0,.8);
+}
